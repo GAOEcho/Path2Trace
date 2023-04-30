@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+.idea
+.git
+tracing/saved
+data/pengpai/labeled_data/case_path.pickle
