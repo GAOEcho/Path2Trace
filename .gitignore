@@ -4,3 +4,4 @@
 tracing/saved
 data/pengpai/labeled_data/case_path.pickle
 data/pengpai/labeled_data/investigation_data.xlsx
+!/.gitignore
