@@ -167,7 +167,8 @@ def sort_reindex_case_tensor_dict(case_tensor_dict):
     return reindexed_case_tensor_unpadded, old2new_case_id
 
 
-def reindex_sp_net(spread_net, old2new_case_id):
+def reindex_sp_net(
+        spread_net, old2new_case_id):
     reindexed_sp_net = nx.Graph()
     for node in spread_net.nodes():
         reindexed_sp_net.add_node(old2new_case_id[node])
