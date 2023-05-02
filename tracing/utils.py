@@ -161,8 +161,6 @@ def sort_reindex_case_tensor_dict(case_tensor_dict):
     for old_case_ID, tensor in case_tensor_dict_sorted_unpadded:
         reindexed_case_tensor_unpadded.append(tensor)
         old2new_case_id[old_case_ID] = i
-        # if old_case_ID == 1894:
-        #     print("1894 1894")
         i += 1
     return reindexed_case_tensor_unpadded, old2new_case_id
 
